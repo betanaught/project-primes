@@ -5,10 +5,6 @@
 # TODO: after Eratosthenese, implementent segmented Eratosthenese
 # TODO: use SparseArray/Matrix, CSC storage with segmented method
 
-primes = fill(true, limit)
-primes[1:2] = [false, false]
-
-
 function is_prime(number)
     if number < 2
         return false
